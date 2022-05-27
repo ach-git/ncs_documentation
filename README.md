@@ -1,7 +1,7 @@
 ![App Screenshot](https://cdn.discordapp.com/attachments/862693343358877727/979757385520381984/Nouveau_projet_17.png)
 
 
-# NextCitizens Core
+# NextCitizens Documentation
 
 NextCitizens is a powerful and optimized core for your FiveM server based on RolePlay.
 
@@ -24,6 +24,8 @@ This command starts a local development server and opens up a browser window. Mo
 ```
 $ yarn build
 ```
+
+## Documentation
 
 [Official documentation of NextCitizens.](https://nextcitizens.net)
 
