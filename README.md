@@ -1,8 +1,11 @@
-# Website
+![App Screenshot](https://cdn.discordapp.com/attachments/862693343358877727/979757385520381984/Nouveau_projet_17.png)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+# NextCitizens Core
+
+NextCitizens is a powerful and optimized core for your FiveM server based on RolePlay.
+
+## Installation
 
 ```
 $ yarn
@@ -22,4 +25,14 @@ This command starts a local development server and opens up a browser window. Mo
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+[Official documentation of NextCitizens.](https://nextcitizens.net)
+
+## Discord
+
+[Official Discord of NextCitizens.](https://discord.gg/T8u4JsserD)
+
+
+## License
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://github.com/NextCitizens/ncs_example_server/blob/main/LICENSE)
+
