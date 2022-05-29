@@ -1,7 +1,7 @@
 # playAnimation
 
 ```lua
-NCs.Ped.playAnimation(ped, dict, anim, flag, blendin, blendout, playbackRate, duration)
+NCs.Ped:playAnimation(ped, dict, anim, flag, blendin, blendout, playbackRate, duration)
 ```
 
 This function play animation on selected ped with multiple arguments. ([List of Animation](https://alexguirre.github.io/animations-list/))
@@ -23,7 +23,7 @@ This function play animation on selected ped with multiple arguments. ([List of 
 RegisterCommand("playAnimationTest", function()
     if source > 0 then 
         local player = PlayerPedId()
-        NCs.Ped.playAnimation(player, "random@mugging3", "handsup_standing_base", 2.0, 2.5, -1, 49, -1)
+        NCs.Ped:playAnimation(player, "random@mugging3", "handsup_standing_base", 2.0, 2.5, -1, 49, -1)
     end
 end)
 ```

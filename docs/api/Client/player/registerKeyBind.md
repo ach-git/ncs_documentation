@@ -1,7 +1,7 @@
 # registerKeyBind
 
 ```lua
-NCs.Player.registerKeyBind(name, defaultKey, desc, callback)
+NCs.Player:registerKeyBind(name, defaultKey, desc, callback)
 ```
 
 This function register at key the callback function.
@@ -16,8 +16,8 @@ This function register at key the callback function.
 
 ## Example
 ```lua
-NCs.Player.registerKeyBind("Notification", "i", "Test of notification with keybind", function()
-    NCs.Player.showNotification("Key i was triggerd")
-    NCs.Player.showNotification("Notification Test")
+NCs.Player:registerKeyBind("Notification", "i", "Test of notification with keybind", function()
+    NCs.Player:showNotification("Key i was triggerd")
+    NCs.Player:showNotification("Notification Test")
 end)
 ```

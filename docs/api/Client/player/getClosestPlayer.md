@@ -1,7 +1,7 @@
 # getClosest
 
 ```lua
-NCs.Player.getClosest()
+NCs.Player:getClosest()
 ```
 
 This function get the closet player.
@@ -14,7 +14,7 @@ This function get the closet player.
 
 ## Example
 ```lua
-local closestPlayer, playerDistance = NCs.Player.getClosest()
+local closestPlayer, playerDistance = NCs.Player:getClosest()
 
-NCs.Player.showNotification(GetPlayerName(closetPlayer).." close to you at "..playerDistance.."m")
+NCs.Player:showNotification(GetPlayerName(closetPlayer).." close to you at "..playerDistance.."m")
 ```
