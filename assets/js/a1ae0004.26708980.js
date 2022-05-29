@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest=self.webpackChunktest||[]).push([[3470],{4107:function(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"txrecipe"}')}}]);
