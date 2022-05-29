@@ -66,7 +66,7 @@ const config = {
 
           {
             type : 'doc',
-            docId: 'ncs_core/core',
+            docId: 'core',
             label: 'Ncs_core', 
             position: 'left'
           },
